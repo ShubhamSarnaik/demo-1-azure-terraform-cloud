@@ -1,7 +1,7 @@
 # Local Values Block
 locals {
   # Use-case-1: Shorten the names for more readability
-  rg_name = "${var.business_unit}-${var.environment}-${var.resoure_group_name}"
+  rg_name = "${var.business_unit}-${var.environment}-${var.resource_group_name}"
   vnet_name = "${var.business_unit}-${var.environment}-${var.virtual_network_name}"
   snet_name = "${var.business_unit}-${var.environment}-${var.subnet_name}"
   pip_name = "${var.business_unit}-${var.environment}-${var.publicip_name}"
